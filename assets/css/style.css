@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.shop-main {
+  width: 100%;
+  height: 100%;
+  background-image: url(/assets/images/food.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+
+.container {
+  max-width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.card-shop {
+  position: relative;
+  width: 1100px;
+  height: 612px;
+  margin: 30px auto 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(26px);
+  padding: 30px 0 30px 0;
+  border-radius: 40px;
+}
+
+.header-shop {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.link-nav ul{
+    display: flex;
+}
+
+.link-nav ul li:first-child{
+    color: #fff;
+}
+
+
+.link-nav ul li{
+    position: relative;
+    padding: 10px 20px;
+    list-style: none;
+    color: #8c8c8e;
+    cursor: pointer;
+}
+
+.link-nav ul li:hover{
+    color: #fff;
+}
+
+
+.shop-tc {
+    margin-top: 35px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.shop-left {
+    width: 45%;
+    height: 100%;
+}
+
+.shop-left p {
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 1.5px;
+}
+
+.shop-left-helt {
+    height: 100px;
+    margin-top: 29px;
+    padding: 0 20px;
+    border-left: 5px solid #fff;
+}
+
+.shop-left-helt p{
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.shop-left-helt h2{
+    color: red;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.shop-left-title {
+    color: #fff;
+    margin-top: 40px;
+    display: flex;
+}
+
+.sl {
+    margin-right: 35px;
+    letter-spacing: 1.5px;
+}
+
+.sl p {
+    margin-top: 10px;
+}
+
+.next {
+    margin-top: 100px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 300px;
+    background-color: black;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.next:hover {
+    background-color: #fff;
+    color: #000;
+    transition: all .3s;
+}
+
+.link-logo-shop {
+    float: right;
+    margin-right: 40px;
+    margin-top: -10px;
+}
+
+.link-logo-shop i{
+    margin-left: 4px;
+    margin-bottom: 80px;
+    font-size: 26px;
+    cursor: pointer;
+    transition: all .3s;
+
+}
+
+.link-logo-shop i:first-child:hover {
+    color: #fff;
+}
+
+.link-logo-shop i:nth-child(3n-1):hover {
+    color: blue;
+}
+
+.link-logo-shop i:last-child:hover {
+    color: red;
+}
+
+.shop-right {
+    position: relative;
+    width: 55%;
+    height: 100%;
+}
+
+.shop-right-img {
+    position: absolute;
+    left: 70px;
+}
+
+.shop-right-img img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 5px solid yellow;
+}
+
+.time {
+    position: absolute;
+    left: -82%;
+    bottom: -59px;
+    color: #fff;
+    height: 40px;
+    width: 200px;
+}
+
+.icons {
+    color: #fff;
+    cursor: pointer;
+    font-size: 35px;
+    transition: all .3s;
+}
+
+.icons:hover {
+    transform: scale(2);
+    color: red;
+    
+}
+
+.left-img {
+    position: absolute;
+    top: 40%;
+}
+
+.right-img {
+    position: absolute;
+    top: 40%;
+    right: 7px;
+}
+
+.next-shop {
+    position: absolute;
+    bottom: 40px;
+    right: 44%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.next-shop i:hover {
+    color: red;
+}
+
+.next-shop i:first-child{
+    color: red;
+}
